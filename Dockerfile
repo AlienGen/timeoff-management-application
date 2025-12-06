@@ -22,6 +22,7 @@ RUN apk add \
   git \
   make \
   python3 \
+  py3-setuptools \
   g++ \
   gcc \
   libc-dev \
