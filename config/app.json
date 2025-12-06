@@ -9,12 +9,18 @@
     "google": false
   },
   "smtp": {
-    "host": "localhost",
-    "port": 25,
+    "host": "192.168.155.42",
+    "port": 2525,
     "from": "email@test.com",
     "auth": {
-      "user": "user",
-      "pass": "pass"
+      "user": "",
+      "pass": ""
+    },
+    "secure": false,
+    "requireTLS": false,
+    "ignoreTLS": true,
+    "tls": {
+      "rejectUnauthorized": false
     }
   },
   "sessions": {

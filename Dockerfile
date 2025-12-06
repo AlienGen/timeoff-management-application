@@ -12,7 +12,7 @@
 #	docker run -d -p 3000:3000 --name alpine_timeoff timeoff
 #
 # --------------------------------------------------------------------
-FROM node:16-alpine
+FROM node:20-alpine
 
 RUN apk update
 #RUN apk upgrade
